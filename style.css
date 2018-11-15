@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.top_header{
+    height: 51px;
+}
+.header_phone{
+  display: inline-block;
+    padding: 15px 0px 15px;
+}
+.header_phone img{
+    display: inline-block;
+}
+.header_phone p{
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    color: #989898;
+    margin-left: 15px;
+}
+.header_mail{
+    display: inline-block;
+    margin-left: 80px;
+}
+.header_mail img{
+    display: inline-block;
+}
+.header_mail p{
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    color: #989898;
+    margin-left: 13px;
+}
+.social_icon{
+    padding: 10px;
+}
+.social_icon li{
+    list-style-type: none;
+    
+   
+}
+.social_icon li a{
+    float: right;
+    padding: 10px;
+    color: #33CCCC;
+}
+
+/*Header CSS*/
+header{
+    background: #33CCCC;
+    height: 70px;
+}
+.navbar{
+    padding: 10px;
+}
+.nav-item{
+margin-right: 20px;
+}
+
+.nav-item:last-child{
+    margin-right: 0px;
+}
+.active{
+    color: #334343;
+    position: relative;
+    text-decoration: none;
+    
+    font-family: "Myriad Pro";
+}
+
+
+.nav-link{
+    color:white!important;
+    font-family: "Myriad Pro";
+}
+/*Banner CSS*/
+.banner_area{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner_content{
+    color: white;
+}
+.banner_content h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.banner_content h2{
+    font-size: 63px;
+    font-family:'Roboto', sans-serif; 
+  margin:  20px 0px 20px;
+}
+.banner_content p{
+    font-size: 16px;
+}
+
+.button_left{
+    background: #1BACAA;
+    color: white;
+    text-transform: uppercase;
+}
+.button_right{
+   background: none;
+     color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    margin-left: 11px;
+}
+
+/*About CSS*/
+.about{
+    margin: 81px 0px 78px;
+}
+.about_content h2{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #18acab;
+    position: relative;
+        margin-bottom: 35px;
+        font-size: 28px;
+    
+}
+.about_content h2::before{
+    content: "";
+    position: absolute;
+    background: #18acab;
+    width: 98px;
+    height: 4px;
+    bottom: -10px;
+}
+   
+
+
+.different_color{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #636767!important;
+        font-size: 28px;
+}
+.about_content p{
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2.2;
+}
+.about_img img{
+    margin-top: 25px;
+}
+.button_readmore{
+    margin-top: 125px;
+    background: #4DFBFB;
+    color: white;
+    text-transform: uppercase;
+    font-family: 
+}
+/*Contact us CSS */
+
+.contact_us{
+    background: #27bfbf;
+}
+.contactus_content{
+    padding: 50px 0px 50px;
+}
+.contactus_content h4{
+    display: inline-block;
+    color: white;
+    
+}
+.contactus_content h2{
+    display: inline-block;
+    color: white;
+    
+}
+.button_contactus{
+    background: none;
+    text-transform: uppercase;
+    border: 1px solid white;
+    margin-top: 55px;
+    color: white;
+    
+    
+}
+/*Service area CSS*/
+.service_content{
+    margin-top: 78px;
+}
+.service_content h2{
+    display: inline-block;
+    font-size: 28px;
+    color:#18acab; 
+    position: relative;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.service_content h2::before{
+    content: "";
+    position: absolute;
+    background: #18acab;
+    width: 168px;
+    height: 6px;
+    bottom: -26px;
+    margin-left: 48px;
+}
+.service_content h3{
+    display: inline-block;
+    font-size: 28px;
+    color: #444344;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.service_content p{
+    padding: 40px 0px 30px;
+    color:#ADABAB; 
+    
+}
+.creative_idea{
+    margin-bottom: 50px;
+}
+.creative_idea img{
+    
+}
+.creative_idea h2{
+    text-transform: uppercase;
+    font-size: 20px;
+     padding: 25px 0px 25px;
+}
+.creative_idea p{
+   color:#ADABAB;
+    font-size: 15px;
+}
+
+/*portfolio CSS*/
+.protfolio{
+    background: #F2F2F2;
+    
+    
+}
+.portfolio_content{
+    margin-top: 50px;
+}
+.portfolio_content h2{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #666262;
+}
+.portfolio_content h2::before{
+      content: "";
+    position: absolute;
+    background: #18acab;
+    width: 125px;
+    height: 7px;
+    bottom: -18px;
+    margin-left: 21px;
+}
+.portfolio_content h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #23BAC9;
+}
+.portfolio_content p{
+    margin-top: 35px;
+    color:#ADABAB;  
+}
+.protfolio_list li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #383535;
+    font-family: sans-serif;
+    
+}
+.active_protfolio{
+    color: #18B3C0!important;
+    position: relative;
+}
+.active_protfolio::before{
+    content: "";
+    position: absolute;
+    background: #18acab;
+    width: 61px;
+    height: 3px;
+    bottom: 0px;
+}
+
+
+
+/*Work area css*/
+.left_content{
+    padding-top: 40px;
+}
+
+.left_content h2{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #666262;
+}
+.left_content h2::before{
+     content: "";
+    position: absolute;
+    background: #18acab;
+    width: 72px;
+    height: 5px;
+    bottom: -11px;
+}
+.left_content h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #23BAC9;
+}
+.left_content p{
+    padding: 30px 0px 40px;
+     color:#ADABAB;  
+}
+.icon p{
+    padding:0px;
+}
+.icon i{
+    color: #1CB9C7;
+    padding-right: 15px;
+}
+.right_content{
+    padding-top: 40px;
+}
+.right_content h2{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #666262;
+}
+.right_content h2::before{
+    content: "";
+    position: absolute;
+    background: #18acab;
+    width: 72px;
+    height: 5px;
+    bottom: -11px;
+    
+}
+.right_content h3{
+    display: inline-block;
+     font-size: 30px;
+    color: #23BAC9;
+}
+.progress_bar{
+    margin-top: 20px;
+}
+.progress_bar p{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.bg-warning{
+   background: #1CB9C8!important; 
+}
+.parcent1{
+    float: right;
+    margin-right: 86px;
+    
+}
+.parcent2{
+    float: right;
+    margin-right: 194px;
+}
+
+
+    
+.parcent4{
+    float: right;
+    margin-right: 57px;
+}
+
+.parcent5{
+    float: right;
+    margin-right: 111px;
+}
+
+
+    
+
+
+/*Client Css*/
+
+.client_area{
+        margin: 90px 0px 40px;
+}
+.left_client{
+    
+}
+.left_client img{
+        margin-top: -62px;
+    
+}
+.client_header{
+    margin-top: 40px;
+}
+
+.client_header h2{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+     color: #666262;
+    font-size: 30px;
+    
+}
+.client_header h2::before{
+     content: "";
+    position: absolute;
+    background: #18acab;
+    width: 139px;
+    height: 5px;
+    bottom: -24px;
+    margin-left: 100px;
+}
+.client_header h3{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #23BAC9;
+    font-size: 30px;
+}
+.client_header p{
+    padding: 56px 0px 90px;
+    color:#ADABAB;  
+}
+.left_client h2{
+    text-transform: uppercase;
+    color: #23BAC9;
+    font-size: 28px;
+    
+    
+}
+.left_client p{
+    color: #A5A3A3;
+    margin-bottom: 11px!important;
+}
+.right_client h2{
+    text-transform: uppercase;
+    color: #23BAC9;
+    font-size: 28px;
+    
+}
+.right_client p{
+    color: #A5A3A3;
+    margin-bottom: 11px!important;
+}
+.right_client img{
+        margin-top: -62px;
+    
+}
+/*Contact us CSS*/
+footer{
+    background: #FCFCFC;
+    margin-bottom: 10px;
+}
+.contact_header{
+    margin-top: 60px;
+}
+.contact_header h2{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    color: #23BAC9;
+    font-size: 35px;
+}
+
+.contact_header h2::before{
+     content: "";
+    position: absolute;
+    background: #18acab;
+    height: 8px;
+    width: 93px;
+    bottom: -25px;
+    margin-left: 48px;
+}
+.contact_header h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #666262;
+}
+.contact_header p{
+    padding: 47px 0px 55px;
+    color: #ADABAB; 
+}
+.left_contact input{
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #45C5D1;
+    padding: 10px;
+}
+
+textarea{
+    margin: 15px;
+   
+}
+.contact_btn{
+    background:#1CB9C8;
+    color: white;
+    text-transform: uppercase;
+    width: 105px;
+    height: 34px;
+    border-radius: 3px;
+    padding: 0px!important;
+}
+.right_contact{
+    color: #585757;
+}
+.footer_phone{
+        padding: 35px 0px 30px;
+}
+.footer_phone img{
+    display: inline-block;
+    width: 25px;
+    margin-right: 15px;
+}
+.footer_phone p{
+    display: inline-block;
+    color: #792323;
+}
+.footer_mail img{
+    display: inline-block;
+    width: 25px;
+    margin-right: 15px;
+}
+.footer_mail p{
+    display: inline-block;
+     color: #782020;
+}
+.footer_icon li{
+    list-style-type: none;
+        margin-left: -46px;
+        margin-top: 20px;
+}
+.footer_icon li a{
+    float: left;
+   padding: 10px;
+    color: #286b6b;
+}
+.footer_icon i{
+    font-size: 30px;
+}
